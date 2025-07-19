@@ -34,20 +34,6 @@ li{
     position: relative;
 }
 
-a{
-    display: flex;
-    flex-direction: column;
-    padding-top: 5px;
-}
-    
-
-.food-img{
-    height: 250px;
-    width: 300px;
-    align-self: center;
-    padding: 20px 0;
-}
-
 p{
     width: 300px;
     text-align: center;
@@ -55,8 +41,29 @@ p{
     margin: 0 auto;
     background-color: rgb(146, 255, 44);
     padding: 15px 25px;
+}   
+
+a{
+    display: flex;
+    flex-direction: column-reverse;
+    padding-top: 5px;
+    align-items: center;
 }
 
+.a-sub{
+    display: flex;
+    flex-direction: column;
+    padding-top: 5px;
+    align-items: center;
+}
+
+.food-img{
+    height: 250px;
+    width: 300px;
+    align-self: center;
+    padding: 20px 0;
+    text-align: center;
+}
 
 a:active{
     color: orange;
